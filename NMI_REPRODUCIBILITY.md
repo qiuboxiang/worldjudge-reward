@@ -32,8 +32,10 @@ but does not replace, the journal's submission forms or editorial review.
 archived at `[DOI URL]`. The repository includes the source code, pinned
 dependencies, verification data, and scripts needed to reproduce the released
 inference outputs. The software is distributed under the MIT License. The base
-model and WorldJudge checkpoint are separate release assets; their exact
-identifiers, revisions, checksums, and access terms are listed at `[ARCHIVE URL]`.
+model is a separate release asset. The WorldJudge checkpoint is publicly
+available at `https://huggingface.co/qiukingballball/worldjudge-ckpt-21500`; its
+immutable revision, checksums, and access terms must be recorded in
+`MODEL_ASSETS.md` and `[ARCHIVE URL]`.
 
 **Data availability.** The three verification episodes are available in the
 repository under the terms documented in `DATA_LICENSE.md` and are identified by

@@ -15,9 +15,10 @@ each episode in independent 16-frame chunks. It does not require a checkout of
 GE-Sim, Robometer, or the unified-dataset repositories.
 
 The base model and WorldJudge checkpoint are **external release assets**. They
-are not stored in Git because each is about 8.3 GB. See
-[`MODEL_ASSETS.md`](MODEL_ASSETS.md) for the required directory layout and the
-information that must be recorded for a citable release.
+are not stored in Git because each is about 8.3 GB. The released checkpoint is
+hosted at [qiukingballball/worldjudge-ckpt-21500 on Hugging Face](https://huggingface.co/qiukingballball/worldjudge-ckpt-21500).
+See [`MODEL_ASSETS.md`](MODEL_ASSETS.md) for the exact download procedure,
+directory layout, and information that must be recorded for a citable release.
 
 ## Repository layout
 
@@ -48,7 +49,7 @@ the code but is not expected to be fast.
 ## Run the released demos
 
 Set `BASE_MODEL` to the local Qwen3-VL-4B-Instruct directory and `CHECKPOINT` to
-the local WorldJudge checkpoint directory (for example, checkpoint `21500`):
+the local copy of the `qiukingballball/worldjudge-ckpt-21500` checkpoint:
 
 ```bash
 BASE_MODEL=/path/to/Qwen3-VL-4B-Instruct \
@@ -56,6 +57,21 @@ CHECKPOINT=/path/to/checkpoint/21500 \
 VENV=$PWD/.venv \
 bash run_all.sh
 ```
+
+To download the checkpoint with the Hugging Face CLI, install
+`huggingface_hub` and use the model repository ID (not a browser cache path):
+
+```bash
+python -m pip install --upgrade huggingface_hub
+hf download qiukingballball/worldjudge-ckpt-21500 \
+  --repo-type model \
+  --local-dir /path/to/checkpoint/21500
+```
+
+For a manuscript or archival release, resolve the Hugging Face repository to a
+specific commit and record that revision plus the SHA-256 checksum of every
+downloaded shard in [`MODEL_ASSETS.md`](MODEL_ASSETS.md). Do not rely on the
+mutable `main` branch when reporting a result.
 
 The runner enables `HF_HUB_OFFLINE=1` and `TRANSFORMERS_OFFLINE=1` so that the
 reported result cannot silently depend on an unrecorded network download.
