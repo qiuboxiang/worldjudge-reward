@@ -1,0 +1,24 @@
+{
+  "dataset": {
+    "5638": {"shape": [1063, 192, 256, 3], "sha256": "b4c7fbb8b72616191a085952242075b66bd30ea576f3ee683c52a62bb96ebdca"},
+    "6005": {"shape": [153, 192, 256, 3], "sha256": "019874608c155ed0694d68f73d24efac0d3d362d9bcd1f2fc322d27c59e7ad83"},
+    "5645": {"shape": [411, 192, 256, 3], "sha256": "bdfadd8942554302fb72d5f3f13cfe2fc257694c427a9cae454c20a4a906a715"}
+  },
+  "outputs": {
+    "5638": {
+      "progress_sha256": "b97c78c2f129e5d86f0d3638d66ea1754c7bd2bcabec1727357e6c2f3532dd89",
+      "success_probs_sha256": "8f20a20e8184c29c1f5388318197baa4ba94b340a4bb0cf22f231b705167a389",
+      "gt_success_sha256": "cea029ed053fc166844583646cd4cf0efe47e787005563bfabe4e1e2959142b6"
+    },
+    "6005": {
+      "progress_sha256": "f8d9ce5870b79c258927ba79de964cc54769405a4962809bc9c2e7cd4c49ab06",
+      "success_probs_sha256": "89a152104a1888113d0523e7ae11c5cff9f19b9c2e86491b85aeaaf09c5286f3",
+      "gt_success_sha256": "9bb84a715b57d32e563bb49c414f1c27459eba83e903f2543932fdcb006c0651"
+    },
+    "5645": {
+      "progress_sha256": "f5b02678a9e234b5ef0999bffb36f29f1aacb473dc0e8af7526c3f4defae3807",
+      "success_probs_sha256": "75b8ced0e9ac2d833af8d3b2603d074f39c1fa24ffe6508c1a1e4f12003c079f",
+      "gt_success_sha256": "f11372afe767b596cb1384c44f08130f0f8dc8424f285a72dbfedd036b8a29a8"
+    }
+  }
+}

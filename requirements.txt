@@ -1,0 +1,13 @@
+accelerate==1.13.0
+av==16.1.0
+decord==0.6.0
+matplotlib==3.10.8
+numpy==1.26.4
+opencv-python==4.11.0.86
+pillow==11.3.0
+pyarrow==23.0.1
+qwen-vl-utils==0.0.14
+safetensors==0.7.0
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.57.6

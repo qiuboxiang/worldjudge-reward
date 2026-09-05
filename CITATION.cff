@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "WorldJudge reward inference"
+message: "If you use this software, please cite the repository and the archived release DOI."
+type: software
+version: "0.1.0"
+date-released: "2026-09-05"
+authors:
+  - family-names: "Qiuboxiang"
+    given-names: ""
+license: MIT
+repository-code: "https://github.com/qiuboxiang/worldjudge-reward"
+keywords:
+  - robot learning
+  - reward modeling
+  - GE-Sim
+  - reproducibility
+abstract: >-
+  Inference-only WorldJudge reward/progress runtime with three small GE-Sim V2
+  demonstration episodes, pinned dependencies, and dataset/output parity checks.
