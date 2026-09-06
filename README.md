@@ -133,6 +133,8 @@ as the metadata template.
 
 ## Citation and license
 
-Please cite the software using [`CITATION.cff`](CITATION.cff). The source code is
-released under the MIT License; see [`LICENSE`](LICENSE). The demo data are not
-automatically covered by the software license; see [`DATA_LICENSE.md`](DATA_LICENSE.md).
+Please cite the software using [`CITATION.cff`](CITATION.cff). Original code,
+annotations, and demo assets follow the GE-Sim 2.0 repository's
+CC BY-NC-SA 4.0 license; see [`LICENSE`](LICENSE) and
+[`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md). Third-party models and
+dependencies retain their upstream terms.

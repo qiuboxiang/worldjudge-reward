@@ -1,21 +1,24 @@
-MIT License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-Copyright (c) 2026 Qiuboxiang
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Unless otherwise stated in `THIRD_PARTY_LICENSES.md`, the original source code,
+annotations, demo data, and rendered demo assets in this repository are licensed
+under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License, consistent with the GE-Sim 2.0 repository.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You are free to share and adapt the covered material under the following terms:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Attribution** — give appropriate credit, provide a link to the license,
+   and indicate if changes were made.
+2. **NonCommercial** — do not use the material for commercial purposes.
+3. **ShareAlike** — if you remix, transform, or build upon the material, you
+   must distribute your contributions under the same license.
+
+The full legal code is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+No additional restrictions may be applied. The material is provided as-is to the
+maximum extent permitted by applicable law. Third-party components, pretrained
+models, and dependencies retain their own upstream licenses; see
+`THIRD_PARTY_LICENSES.md`.

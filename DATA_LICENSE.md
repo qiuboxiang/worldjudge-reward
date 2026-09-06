@@ -1,8 +1,10 @@
 # Data provenance and redistribution
 
 The `demo_data/`, `demos/`, and `assets/demos/` directories contain the small
-verification examples distributed with this release. They are separate from the
-software covered by [`LICENSE`](LICENSE).
+verification examples distributed with this release. If the corresponding
+author has the right to redistribute them, they are intended to follow the
+GE-Sim 2.0 repository's CC BY-NC-SA 4.0 terms; they are not covered by any
+upstream model license.
 
 Before publishing a public repository, the corresponding author must verify and
 record all of the following for the three episodes:
@@ -14,8 +16,8 @@ record all of the following for the three episodes:
 5. any restrictions on commercial use, derivative works, or redistribution.
 
 Until those checks are complete, treat the bundled files as **verification-only
-release assets** and do not represent them as being covered by the MIT software
-license. If the source terms do not allow redistribution, remove the data and
+release assets** and do not represent them as being covered by CC BY-NC-SA 4.0.
+If the source terms do not allow redistribution, remove the data and
 video assets from the public repository and provide an accession/download script
 instead. Update this file with the verified terms before tagging a release.
 

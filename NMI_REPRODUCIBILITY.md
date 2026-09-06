@@ -12,7 +12,7 @@ but does not replace, the journal's submission forms or editorial review.
 - [x] Small test dataset and task annotations.
 - [x] Dataset SHA-256 manifest and output parity checks.
 - [x] Offline execution flags to prevent unrecorded model downloads.
-- [x] OSI-approved software license and `CITATION.cff`.
+- [x] GE-Sim 2.0-aligned license boundary and `CITATION.cff`.
 - [x] Change history and a versioned release tag (`CHANGELOG.md`).
 - [x] Continuous integration for source compilation and repository sanity checks.
 
@@ -31,8 +31,9 @@ but does not replace, the journal's submission forms or editorial review.
 `https://github.com/qiuboxiang/worldjudge-reward` at release `[TAG]` and is
 archived at `[DOI URL]`. The repository includes the source code, pinned
 dependencies, verification data, and scripts needed to reproduce the released
-inference outputs. The software is distributed under the MIT License. The base
-model is a separate release asset. The WorldJudge checkpoint is publicly
+inference outputs. Original code and bundled release assets follow the
+GE-Sim 2.0 repository's CC BY-NC-SA 4.0 terms; third-party components retain
+their upstream licenses. The base model is a separate release asset. The WorldJudge checkpoint is publicly
 available at `https://huggingface.co/qiukingballball/worldjudge-ckpt-21500`; its
 immutable revision, checksums, and access terms must be recorded in
 `MODEL_ASSETS.md` and `[ARCHIVE URL]`.

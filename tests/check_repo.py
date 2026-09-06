@@ -15,6 +15,7 @@ required = (
     "DATA_LICENSE.md",
     "MODEL_ASSETS.md",
     "NMI_REPRODUCIBILITY.md",
+    "THIRD_PARTY_LICENSES.md",
     "requirements.txt",
     "run_all.sh",
     "infer.py",
