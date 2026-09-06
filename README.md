@@ -20,6 +20,36 @@ hosted at [qiukingballball/worldjudge-ckpt-21500 on Hugging Face](https://huggin
 See [`MODEL_ASSETS.md`](MODEL_ASSETS.md) for the exact download procedure,
 directory layout, and information that must be recorded for a citable release.
 
+## Demo results
+
+The following videos are the three bundled GE-Sim V2 demonstration episodes
+used by the reproducible release. Each video shows the raw episode together
+with the postprocessed WorldJudge predictions.
+
+### Task 5638
+
+Task instruction: `Pour water 8`
+
+![Task 5638: raw and postprocessed predictions](assets/demos/task_5638.mp4)
+
+[Download task 5638 MP4](assets/demos/task_5638.mp4)
+
+### Task 6005
+
+Task instruction: `Grasp and release objects`
+
+![Task 6005: raw and postprocessed predictions](assets/demos/task_6005.mp4)
+
+[Download task 6005 MP4](assets/demos/task_6005.mp4)
+
+### Task 5645
+
+Task instruction: `Clean mirror stains`
+
+![Task 5645: raw and postprocessed predictions](assets/demos/task_5645.mp4)
+
+[Download task 5645 MP4](assets/demos/task_5645.mp4)
+
 ## Repository layout
 
 ```text
@@ -98,12 +128,6 @@ success probabilities, and both binary timelines:
 `verify_outputs.py` also checks the expected episode lengths and 16-frame chunk
 counts. The `tests/golden_manifest.json` file is the machine-readable record of
 the dataset and output digests used for release QA.
-
-## Demo videos
-
-- [Task 5638 — pour water](assets/demos/task_5638.mp4)
-- [Task 6005 — grasp and release objects](assets/demos/task_6005.mp4)
-- [Task 5645 — clean mirror stains](assets/demos/task_5645.mp4)
 
 ## Reproducibility and NMI reporting
 
